@@ -1,0 +1,3 @@
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/jogo.dir
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
