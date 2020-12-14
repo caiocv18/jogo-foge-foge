@@ -3,4 +3,4 @@ project(jogo C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(jogo main.c)
+add_executable(jogo main.c fogefoge.h)

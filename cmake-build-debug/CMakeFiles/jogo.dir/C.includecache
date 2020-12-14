@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/fogefoge.h
+
 C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/main.c
 stdio.h
 -
 stdlib.h
 -
+fogefoge.h
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/fogefoge.h
 

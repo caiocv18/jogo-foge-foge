@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/fogefoge.h">
+			<Option target="jogo"/>
+		</Unit>
 		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/main.c">
 			<Option target="jogo"/>
 		</Unit>
