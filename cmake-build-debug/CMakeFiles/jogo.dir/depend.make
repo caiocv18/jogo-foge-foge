@@ -3,4 +3,8 @@
 
 CMakeFiles/jogo.dir/main.c.obj: ../fogefoge.h
 CMakeFiles/jogo.dir/main.c.obj: ../main.c
+CMakeFiles/jogo.dir/main.c.obj: ../mapa.h
+
+CMakeFiles/jogo.dir/mapa.c.obj: ../mapa.c
+CMakeFiles/jogo.dir/mapa.c.obj: ../mapa.h
 

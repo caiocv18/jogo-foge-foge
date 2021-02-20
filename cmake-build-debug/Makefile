@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jogo.dir\build.make CMakeFiles/jogo.dir/main.c.s
 .PHONY : main.c.s
 
+mapa.obj: mapa.c.obj
+
+.PHONY : mapa.obj
+
+# target to build an object file
+mapa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jogo.dir\build.make CMakeFiles/jogo.dir/mapa.c.obj
+.PHONY : mapa.c.obj
+
+mapa.i: mapa.c.i
+
+.PHONY : mapa.i
+
+# target to preprocess a source file
+mapa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jogo.dir\build.make CMakeFiles/jogo.dir/mapa.c.i
+.PHONY : mapa.c.i
+
+mapa.s: mapa.c.s
+
+.PHONY : mapa.s
+
+# target to generate assembly for a file
+mapa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jogo.dir\build.make CMakeFiles/jogo.dir/mapa.c.s
+.PHONY : mapa.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mapa.obj
+	@echo ... mapa.i
+	@echo ... mapa.s
 .PHONY : help
 
 

@@ -5,8 +5,7 @@
 #ifndef JOGO_FOGEFOGE_H
 #define JOGO_FOGEFOGE_H
 
-void alocamapa();
-void lemapa();
-void liberamapa();
+int acabou();
+void move(char direcao);
 
 #endif //JOGO_FOGEFOGE_H

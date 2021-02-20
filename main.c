@@ -1,55 +1,56 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "fogefoge.h"
+#include "mapa.h"
 
-char **mapa;
-int linhas;
-int colunas;
+MAPA m;
+POSICAO heroi;
 
-int main() {
-
-    lemapa();
-    liberamapa();
-
+int acabou() {
     return 0;
 }
 
-void lemapa(){
-    //abertura do arquivo
-    FILE* f;
-    f = fopen("C://Users//caiov//Google Drive//Cursos//Alura//Linguagem-C//C-3-Recursos-avancados-da-linguagem//jogo//mapa.txt.txt","r");
-    if (f == 0){
-        printf("Erro na abertura do arquivo mapa");
-        exit(1);
+void move(char direcao) {
+
+    m.matriz[heroi.x][heroi.y] = '.';
+
+    switch(direcao) {
+        case 'a':
+            m.matriz[heroi.x][heroi.y-1] = '@';
+            heroi.y--;
+            break;
+        case 'w':
+            m.matriz[heroi.x-1][heroi.y] = '@';
+            heroi.x--;
+            break;
+        case 's':
+            m.matriz[heroi.x+1][heroi.y] = '@';
+            heroi.x++;
+            break;
+        case 'd':
+            m.matriz[heroi.x][heroi.y+1] = '@';
+            heroi.y++;
+            break;
     }
 
-    fscanf(f, "%d %d", &linhas, &colunas);
-    alocamapa();
-
-    //leitura de cada linha do arquivo
-    for (int i = 0; i < 5; ++i) {
-        fscanf(f,"%s", mapa[i]);
-    }
-
-    //printar cada linha do arquivo na tela
-    for (int i = 0; i < 5; ++i) {
-        printf("%s\n",mapa[i]);
-    }
-
-    fclose(f);
 }
 
-void alocamapa(){
-    mapa = malloc(sizeof(char*) * linhas);
+int main() {
 
-    for (int i = 0; i < linhas; ++i) {
-        mapa[i] = malloc(sizeof(char) * colunas);
-    }
-}
+    lemapa(&m);
+    encontramapa(&m, &heroi, '@');
 
-void liberamapa(){
-    for (int i = 0; i < linhas ; ++i) {
-        free(mapa[i]);
-    }
-    free(mapa);
+    do {
+        imprimemapa(&m);
+
+        char comando;
+        scanf(" %c", &comando);
+
+        move(comando);
+
+    } while (!acabou());
+
+    liberamapa(&m);
+
+    return 0;
 }
