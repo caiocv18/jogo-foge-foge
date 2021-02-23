@@ -13,6 +13,8 @@ stdio.h
 -
 stdlib.h
 -
+time.h
+C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/time.h
 fogefoge.h
 C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/fogefoge.h
 mapa.h
@@ -22,6 +24,8 @@ C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-l
 stdio.h
 -
 stdlib.h
+-
+string.h
 -
 mapa.h
 C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/mapa.h
