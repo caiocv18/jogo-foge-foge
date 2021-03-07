@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/main.c" "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/jogo.dir/main.c.obj"
   "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/mapa.c" "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/jogo.dir/mapa.c.obj"
+  "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/ui.c" "C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/cmake-build-debug/CMakeFiles/jogo.dir/ui.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

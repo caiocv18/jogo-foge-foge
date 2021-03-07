@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/mapa.h">
 			<Option target="jogo"/>
 		</Unit>
+		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/ui.c">
+			<Option target="jogo"/>
+		</Unit>
+		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/ui.h">
+			<Option target="jogo"/>
+		</Unit>
 		<Unit filename="C:/Users/caiov/Google Drive/Cursos/Alura/Linguagem-C/C-3-Recursos-avancados-da-linguagem/jogo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
